@@ -14,6 +14,7 @@ fi
 
 if [[ ! -f "${1}" ]]; then
     echo "File not found: ${1}"; exit 1
+    exit 1
 fi
 
 cat <<EOM
