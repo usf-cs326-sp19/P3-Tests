@@ -1,10 +1,11 @@
 
 CFLAGS += -Wall -g -pthread
 
-all_progs = scribble thread-safety
+all_progs = free scribble thread-safety
 
 all: $(all_progs)
 
+free: free.c
 scribble: scribble.c
 thread-safety: thread-safety.c
 
