@@ -23,6 +23,8 @@ output=$( \
     ALLOCATOR_ALGORITHM=${algo} \
     tests/progs/allocations-3 2> /dev/null)
 
+echo "${output}"
+
 # Just get the block ordering from the output. We ignore the last allocation
 # that is caused by printing to stdout.
 block_order=$(grep '\[BLOCK\]' <<< "${output}" \
