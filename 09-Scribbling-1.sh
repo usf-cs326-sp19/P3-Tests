@@ -10,7 +10,6 @@ aaaaaaaa
 aaaaaaaaaaaaaaaa
 Totalling up uninitialized arrays:
 850000
-1700000
 calloc should still zero out the memory:
 0
 EOM
